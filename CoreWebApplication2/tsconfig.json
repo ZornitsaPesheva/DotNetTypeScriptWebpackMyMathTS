@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./wwwroot/build/",
+    "noImplicitAny": false,
+ //   "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "module": "AMD",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
